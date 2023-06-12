@@ -7,7 +7,7 @@ import time
 try:
     s = Service('D:\chromedriver_win32\chromedriver.exe')
 
-    driver = webdriver.Chrome(service=s)
+    driver = webdriver.Chrome(service_args=s)
 
     driver.get("https:\\www.expedia.com")
 
